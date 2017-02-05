@@ -1,7 +1,6 @@
 package semanticcss227
 
 import (
-	"bytes"
     "net/http"
 )
 
