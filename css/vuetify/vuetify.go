@@ -11,6 +11,7 @@ const Version = "0.8.8"
 
 // Handler can be used from http Server
 func Handler(w http.ResponseWriter, r *http.Request){
+    w.Header().Add("Content-Type", "text/css")
     w.Write(libBytes)
 }
 
